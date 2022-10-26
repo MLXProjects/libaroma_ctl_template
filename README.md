@@ -10,7 +10,8 @@ Feel free to contact me in case you need any help :D
 2) put ctl_template.h at libaroma/include/aroma/controls  
 3) add to libaroma/include/aroma/ui.h the following line:  
   ```#include "controls/ctl_template.h"```
-4) rebuild libaroma
+4) edit build scripts (libaroma/tools/yoursystem/mkaroma) to also build src/aroma/controls/ctl_template.c
+5) rebuild libaroma
 
 # License
 This template is licensed under Apache 2.0 license, same as libaroma itself.
